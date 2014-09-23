@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<patch xmlns="urn:jboss:patch:1.0" id="mypatch-jboss-6.x">
+    <description>
+        My patch
+    </description>
+    <upgrade name="EAP" version="6.2.3.GA" to-version="6.2.4.GA"/>
+    <element id="layer-base-mypatch-jboss-eap-6.x.CP">
+        <description>
+            No description available
+        </description>
+        <upgrade name="base"/>
+        <modules>
+            <added name="org.springframework.spring" hash="e7501746bacde52546b71b1f67929b92580f3c2b"/>
+	</modules>
+</patch>
